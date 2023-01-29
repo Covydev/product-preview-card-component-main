@@ -1,0 +1,92 @@
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+--Cream: hsl(30, 38%, 92%);
+--blue: hsl(212, 21%, 14%);
+--grayish-blue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+}
+
+*{
+  
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--Cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    width: 650px;
+    min-height: 100px;
+    border-radius: 20px;
+    background-color: var(--White);
+    display: flex;
+}
+
+.card>img{
+    width: 50%;
+}
+.card>.about{
+    width: 50%;
+    padding: 30px;
+}
+.heading{
+    color: var(--grayish-blue);
+    letter-spacing: 8px;
+}
+h1{
+    padding-top: 15px;
+}
+.info{
+    color: var(--grayish-blue);
+    padding-top: 20px;
+}
+
+.price{
+    color: var(--Dark-cyan);
+    font-size: 40px;
+    font-weight: bold;
+}
+.discount{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+.old-price>del{
+    color: var(--grayish-blue);
+    
+}
+.button{
+    display: flex;
+    background-color: var(--Dark-cyan);
+    height: 45px;
+    width: 200px;
+    border-radius: 9px;
+    margin: auto;
+    padding-top: 8px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button:hover{
+  background-color: var(--blue);
+}
+.button>img{
+    width: 20px;
+    height: 20px;
+}
+.button>p{
+    color: var(--White);
+    
+}
+
+
